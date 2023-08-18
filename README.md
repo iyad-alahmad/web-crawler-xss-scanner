@@ -34,6 +34,16 @@ Run the script:
 	python xss-scanner.py
 
 
+##Examples where it works:
+	<
+	
+	https://xss-game.appspot.com/level1/frame
+	http://testphp.vulnweb.com/index.php
+	https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded
+	https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
+	
+	>
+
 
 Follow the on-screen prompts to input the target URL and watch the script in action. The script will first crawl the website, record relevant URLs, and then perform XSS vulnerability scanning on those URLs.
 How It Works
@@ -52,17 +62,9 @@ License
 This project is licensed under the MIT License.
 
 
-## References
+References
 - [Cross-Site Scripting (XSS) - Python Code](https://thepythoncode.com/article/make-a-xss-vulnerability-scanner-in-python)
 - [Cross-Site Scripting (XSS)](https://portswigger.net/web-security/cross-site-scripting)
 - [Cross-Site Scripting (XSS) - OWASP](https://owasp.org/www-community/attacks/xss/)
 
-##Examples where it works:
-	<
-	
-	https://xss-game.appspot.com/level1/frame
-	http://testphp.vulnweb.com/index.php
-	https://portswigger.net/web-security/cross-site-scripting/contexts/lab-javascript-string-angle-brackets-html-encoded
-	https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
-	
-	>
+
