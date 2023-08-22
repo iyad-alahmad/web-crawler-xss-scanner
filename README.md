@@ -14,7 +14,6 @@ Before running the project, make sure you have the following libraries installed
 
 You can install these libraries using the following commands:
 
-```bash
 	pip install requests beautifulsoup4 urllib3
 
 
@@ -22,15 +21,15 @@ You can install these libraries using the following commands:
 ## Usage
 
 Clone this repository to your local machine: 
-```bash
+
 	git clone https://github.com/iyad-alahmad/web-crawler-xss-scanner.git
 
 Navigate to the project directory:
-```bash
+
 	cd web-crawler-xss-scanner
 
 Run the script:
-```bash
+
 	python xss-scanner.py
 
 
